@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fund Me App</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div id="main">
+            <div>
+                <button id="connectButton" type="button" class="btn btn-primary">Connect</button>
+                <button id="balanceButton" type="button" class="btn btn-primary">
+                    getBalance
+                </button>
+                <button id="withdrawButton" type="button" class="btn btn-primary">Withdraw</button>
+            </div>
+
+            <!-- <form> -->
+
+            <div>
+                <label for="ethAmount">ETH Amount</label>
+                <input id="ethAmount" placeholder="0.1" type="number" />
+                <button type="button" id="fundButton" class="btn btn-primary">Fund</button>
+            </div>
+
+            <!-- </form> -->
+        </div>
+    </body>
+
+    <script src="./index.js" type="module"></script>
+</html>

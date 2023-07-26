@@ -1,0 +1,13 @@
+#main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    background-color: rgb(196, 225, 225)
+}
+
+
+#main > div{
+ margin: 20px;
+}
